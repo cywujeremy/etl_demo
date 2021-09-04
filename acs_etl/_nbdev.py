@@ -2,9 +2,13 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"foo": "00_acs_pull.ipynb"}
+index = {"ACS_Blockgroup_Data_Pull": "00_acs_pull.ipynb",
+         "database_connector": "01_load.ipynb",
+         "series_to_tuple_like_string": "01_load.ipynb",
+         "ACS_Blockgroup_Data_Loader": "01_load.ipynb"}
 
-modules = ["acs.py"]
+modules = ["acs.py",
+           "load.py"]
 
 doc_url = "https://cywujeremy.github.io/acs_etl/"
 
